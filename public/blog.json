@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/kx3mB80/A2.jpg",
+      "title": "10 Tips for Effective Time Management",
+      "author": "John Doe",
+      "author_img": "https://i.ibb.co/m6S36Dw/aut-1.jpg",
+      "posted_date": "2024-06-30",
+      "reading_time": 8,
+      "hashtags": ["productivity", "time management", "work-life balance"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/278WV2g/A01.jpg",
+      "title": "The Future of Artificial Intelligence in Healthcare",
+      "author": "Jane Smith",
+      "author_img": "https://i.ibb.co/mT3GcRK/aut-4.jpg",
+      "posted_date": "2024-06-29",
+      "reading_time": 6,
+      "hashtags": ["AI", "healthcare", "technology"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/VMGG0qb/A3.jpg",
+      "title": "Healthy Eating: A Beginner's Guide",
+      "author": "Mike Johnson",
+      "author_img": "https://i.ibb.co/3YBC1XV/aut-5.jpg",
+      "posted_date": "2024-06-28",
+      "reading_time": 10,
+      "hashtags": ["nutrition", "healthy living", "diet"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/gZZd47W/A5.jpg",
+      "title": "Exploring Ancient Ruins: Travel Adventures",
+      "author": "Emily Brown",
+      "author_img": "https://i.ibb.co/WFB3khQ/aut-2.jpg",
+      "posted_date": "2024-06-27",
+      "reading_time": 9,
+      "hashtags": ["travel", "adventure", "history"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co/BBXgJ6s/A1.jpg",
+      "title": "Starting Your Own Business: Key Steps to Success",
+      "author": "Alex Williams",
+      "author_img": "https://i.ibb.co/J2ps5N3/aut-3.jpg",
+      "posted_date": "2024-06-26",
+      "reading_time": 12,
+      "hashtags": ["business", "entrepreneurship", "startup"]
+    }
+  ]
+  
