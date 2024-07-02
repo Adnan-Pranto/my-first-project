@@ -14,14 +14,16 @@ function App() {
     const newBookmark = [...bookmark, blog];
     setBookmark(newBookmark);
   }
-  const handelReadingTime = times =>{
+  const handelReadingTime = (id, times) =>{
     setReadingTime (readingTime+times);
-    
+    // Remove the read items (Optional)
+    // console.log('remove')
+    const remainBookmark = bookmark.filter ( bookRead => bookRead.id !== id);
+    setBookmark(remainBookmark);
   }
 
   return (
     <>
-
 
       <Header></Header>
       <div className='flex mx-auto p-4 my-6 max-w-7xl'>

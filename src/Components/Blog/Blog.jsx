@@ -1,7 +1,7 @@
 import { FcBookmark } from "react-icons/fc";
 import PropTypes, { number } from 'prop-types';
 const Blog = ({ blog, handelAddToBookmark, handelReadingTime }) => {
-    const { title, cover, author, author_img, reading_time,
+    const {id, title, cover, author, author_img, reading_time,
         hashtags, posted_date } = blog;
     return (
         <div className='my-2 p-3 mb-20'>
@@ -34,7 +34,7 @@ const Blog = ({ blog, handelAddToBookmark, handelReadingTime }) => {
                 </p>
             </div>
             <button
-                onClick={() => handelReadingTime(reading_time)}
+                onClick={() => handelReadingTime(id, reading_time)}
                 className="font-semibold mt-10 text-purple-500 underline">
                 Mark as read</button>
         </div>
@@ -43,6 +43,6 @@ const Blog = ({ blog, handelAddToBookmark, handelReadingTime }) => {
 Blog.propTypes = {
     blog: PropTypes.object.isRequired,
     handelAddToBookmark: PropTypes.func,
-    handelReadingTime: PropTypes.number
+    handelReadingTime: PropTypes.func
 }
 export default Blog;
