@@ -1,7 +1,7 @@
 import Profile from '../../assets/images/profile.png'
 const Header = () => {
     return (
-        <div className='flex justify-between items-center p-5 border-b-2 mx-4'>
+        <div className='flex justify-between items-center p-5 border-b-2 mx-auto max-w-7xl my-5'>
              <h1 className='text-3xl font-bold bg-orange-300 p-4 rounded-xl'>My Knowledge Project</h1>
              <img src={Profile} alt="" />
         </div>
