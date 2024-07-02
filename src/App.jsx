@@ -7,9 +7,16 @@ import Bookmark from './Components/Bookmark/Bookmark'
 
 function App() {
 
-  const [bookmask, setBookmark] = useState([]);
+  const [bookmark, setBookmark] = useState([]);
+  const [readingTime, setReadingTime] = useState(0);
+
   const handelAddToBookmark = blog => {
-    console.log('add soon');
+    const newBookmark = [...bookmark, blog];
+    setBookmark(newBookmark);
+  }
+  const handelReadingTime = times =>{
+    setReadingTime (readingTime+times);
+    
   }
 
   return (
@@ -18,8 +25,10 @@ function App() {
 
       <Header></Header>
       <div className='flex mx-auto p-4 my-6 max-w-7xl'>
-        <Blogs handelAddToBookmark={handelAddToBookmark}></Blogs>
-        <Bookmark></Bookmark>
+        <Blogs
+        handelReadingTime={handelReadingTime}
+        handelAddToBookmark={handelAddToBookmark}></Blogs>
+        <Bookmark bookmark={bookmark} readingTime={readingTime}></Bookmark>
       </div>
 
     </>
